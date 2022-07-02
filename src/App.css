@@ -2,28 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +13,102 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.header{
+  background-color: #546f68;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.logo{
+  width: 130px;
+  margin-left: 20px;
+}
+.bar-btn{
+  font-size: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.nav-menu{
+  position: fixed;
+  width: 100%;
+  height: 0vh;
+  top: 100px;
+  background: rgba(0, 0, 0, 0.95);
+  text-align: center;
+  transition: all .5s;
+}
+.nav-menu li {
+  display: none;
+  line-height: 30px;
+  margin: 50px 0;
+  transition: all .5s;
+
+}
+.nav-menu li a {
+  color: #eee7cd;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: poppins;
+  text-decoration: none;
+
+}
+.nav-menu li a.active, .nav-menu li a:hover{
+  color:#cc4d3a;
+  transition: .3s;
+}
+#check  {
+  display: none;
+}
+#check:checked  ~ .nav-menu {
+  height: 100vh ;
+}
+#check:checked  ~ .nav-menu li{
+  display: block;
+}
+
+
+
+@media screen and (min-width: 768px){
+  .header{
+    width: 100%;
+    height: 100%;
+  }
+  .logo{
+      margin-left:50px ;
+  }
+  nav{
+      height: 100px;
+  }
+  .bar-btn{
+      display: none;
+  }
+  .nav-menu{
+      position: relative;
+      height: 100px; 
+      top: 0;  
+      background: none;
+      transition: none;
+      text-align: right;
+      margin-right: 50px;
+}
+.nav-menu li{
+  display: inline-block;
+  line-height: 100px;
+  margin: 0 20px;
+  transition: none;
+}
+.nav-menu li a {
+  font-size: 12px;
+
+}
+
 }
