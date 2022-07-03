@@ -75,6 +75,14 @@
   display: block;
 }
 
+.logo a {
+  font-family: poppins;
+  text-decoration: none;
+  color: #eee7cd;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
 
 
 @media screen and (min-width: 768px){
