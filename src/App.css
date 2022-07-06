@@ -79,13 +79,38 @@
   font-family: poppins;
   text-decoration: none;
   color: #eee7cd;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
   text-align: center;
 }
 
+.cards{
+  display: flex;
+  text-decoration: none;
+  background-color: #eee7cd;
+  list-style-type: none;
+  padding: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cards li {
+  font-family: poppins;
+  background-color: #cc4d3a;
+  border: 1px solid rgb(43, 43, 43);
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  
+}
+.carrito{
+  width: 30px;
+
+}
 
 @media screen and (min-width: 768px){
+ 
   .header{
     width: 100%;
     height: 100%;
@@ -119,6 +144,6 @@
 
 }
 .carrito{
-  width: 80px;
+  width: 50px;
 }
 }

@@ -1,6 +1,8 @@
+import '../App.css'
+
 function ItemListContainer() {
     return (
-        <div>
+        <div className="cards">
             <li>
                 <p>Blond</p>
                 <button>Agregar al carrito</button>
