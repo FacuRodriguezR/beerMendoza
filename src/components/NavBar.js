@@ -20,9 +20,11 @@ function Nav() {
           <li><a href="#">Contacto</a></li>
           <li><a href="#">Productos</a></li>
         </ul>
-        <CartWidget/>
       </nav>
-          
+      
+      <CartWidget/>
+     
+      
         </header>
       </div>
     );

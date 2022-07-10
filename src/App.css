@@ -27,6 +27,38 @@
 
 }
 
+.botonAdd{
+  display: flex;
+  justify-content: space-evenly;
+}
+.botonAdd button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fac400;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #fac400, 0 0 15px #fac400,
+  0 0 15px #fac400;
+  color: #353535;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.botonAdd p {
+  color: #353535;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.agregarCarr{
+  background-color: #353535;
+  border-radius: 4px;
+  padding: 10px;
+  color: #eee7cd;
+  box-shadow: 0 0 5px #353535, 0 0 15px #353535,
+  0 0 15px #353535;
+}
+
+
 .logo{
   width: 130px;
   margin-left: 20px;
@@ -109,6 +141,26 @@
 
 }
 
+.cardsBeer {
+  font-family: poppins;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #353535;
+  box-shadow: 0 0 5px #353535, 0 0 15px #353535;
+
+  
+  border-radius: 16px;
+}
+
+.cardsBeer img {
+  border-bottom: 3px solid #353535;
+}
+
+.navCarrito{
+  background-color: #fac400;
+  text-align: end;
+
+}
 @media screen and (min-width: 768px){
  
   .header{

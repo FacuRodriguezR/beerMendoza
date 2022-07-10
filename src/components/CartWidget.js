@@ -5,7 +5,7 @@ import carrito from '../assets/img/carrito.png'
 
 export const CartWidget = () => {
   return (
-    <div>
+    <div className='navCarrito'>
         <img className='carrito' src={carrito}/> <span>0</span>
     </div>
   )
