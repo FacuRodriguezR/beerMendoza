@@ -27,6 +27,8 @@
 
 }
 
+/* botón contador */
+
 .botonAdd{
   display: flex;
   justify-content: space-evenly;
@@ -58,6 +60,7 @@
   0 0 15px #353535;
 }
 
+/* navbar */
 
 .logo{
   width: 130px;
@@ -116,6 +119,8 @@
   text-align: center;
 }
 
+/* cards cerveza */
+
 .cards{
   display: flex;
   text-decoration: none;
@@ -136,8 +141,11 @@
   margin: 10px;
   
 }
+
 .carrito{
   width: 30px;
+ 
+  /* padding-right: 20px ; */
 
 }
 
@@ -159,6 +167,8 @@
 .navCarrito{
   background-color: #fac400;
   text-align: end;
+  
+  padding: 20px;
 
 }
 @media screen and (min-width: 768px){
