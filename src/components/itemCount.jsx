@@ -19,8 +19,6 @@ const ItemCount = ({initial, stock, onAdd}) => {
         if (counter > initial){
             const aux = counter-1
             setCounter(aux)
-        } else {
-            alert('Error')
         }
     }
 
