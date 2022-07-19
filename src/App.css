@@ -171,6 +171,20 @@
   padding: 20px;
 
 }
+
+.descBeer{
+  color: rgb(253, 203, 66);
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #353535, 0 0 15px #353535 ;
+}
+
+.infoBeer{
+  font-size: 18px;
+  
+}
+
+
 @media screen and (min-width: 768px){
  
   .header{
