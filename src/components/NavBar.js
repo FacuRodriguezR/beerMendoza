@@ -1,5 +1,6 @@
 import '../App.css';
 import CartWidget from './CartWidget';
+import { Link } from 'react-router-dom';
 
 
 
@@ -17,12 +18,14 @@ function Nav() {
           <i className="fas fa-bars"></i>
         </label>
         <ul class="nav-menu">
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Productos</a></li>
+          <Link className='linked' to="/">Home</Link>
+          <Link className='linked' to="/category/11">Vinos</Link>
+          <Link className='linked' to="/category/10">Cervezas</Link>
+          <Link className='linked' to="/category/12">Gin Tonic</Link>
         </ul>
       </nav>
+      <Link to="/cart"><CartWidget/></Link>
       
-      <CartWidget/>
      
       
         </header>
