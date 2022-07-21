@@ -1,6 +1,6 @@
 import React from 'react'
 import ItemCount from './itemCount'
-import { Link } from 'react-router-dom'
+
 
 
 const ItemDetail = ( {item}) => {
@@ -14,7 +14,7 @@ const ItemDetail = ( {item}) => {
             <h2>{item.name}</h2>
             <p className='descBeer'>{item.description}</p>
             <p className='infoBeer'>{item.descriptionGeneral}</p>
-            <Link className='detalle' to="/item/:id">Detalle</Link>
+         
             <ItemCount initial={1} stock={16} onAdd={onAdd}/>
 
 

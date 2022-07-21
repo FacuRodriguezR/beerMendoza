@@ -24,7 +24,7 @@ const productos = [
         "image": "https://cdn.shopify.com/s/files/1/0254/2947/5433/products/cerveza-quilmes-stout-473-siempreencasa_1_1000x.png?v=1636550840",
         "name": "STOUT",
         "description": "Cerveza STOUT 500CC",
-        "descriptionGeneral":""
+        "descriptionGeneral":"Stout todavía significaba solo fuerte y podía estar relacionado con cualquier tipo de cerveza, siempre que fuera fuerte: en el Reino Unido era posible encontrar stout pale ale, por ejemplo. Más tarde, la stout finalmente se asociaría solo con la porter, convirtiéndose en sinónimo de cerveza negra."
     },
     {
         "id":3,

@@ -12,7 +12,7 @@ const Item = (props) => {
             <h2>{props.item.name}</h2>
             <p>{props.item.description}</p>
             
-            <Link className='detalle' to="/item/:id">Detalle</Link>
+            <Link className='detalle' to={`/item/${props.item.id}`}>Detalle</Link>
 
             <ItemCount initial={1} stock={16} onAdd={onAdd}/>
 

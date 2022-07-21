@@ -7,7 +7,7 @@ import ItemDetail from './ItemDetail'
 import { useParams } from 'react-router'
 
 const ItemDetailContainer = () => {
-    const [data, setData] = useState([]);
+    const [item, setData] = useState([]);
 
     const{ id } = useParams();
 
@@ -25,12 +25,13 @@ const ItemDetailContainer = () => {
                 },
         
             [])
-                return(
-                    <ItemDetail data={data}/>
-                )
+               
                 
                 
     });
+    return(
+        <ItemDetail item={item}/>
+    )
 }
 
 export default ItemDetailContainer
