@@ -1,70 +1,38 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### ALUMNO: RODRIGUEZ FACUNDO
 
-In the project directory, you can run:
+## COMISIÓN: 31225
 
-### `npm start`
+### `PROYECTO REACT - MENDOZABEER`
+Proyeto creado para el curso de REACT JS dictado por el profesor Alex Marin Mendez y bajo la tutoría de Lautaro Vilas. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## `Descripción del proyecto`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Tiene como finalidad la simulación de un E-commerce de bebidas varias estructurada por componentes.
 
-### `npm test`
+### `Estructura`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Está compuesta por una vista principal, compuesta por un header (el cual se encuentra en todas las vistas) con el logo del negocio y su nombre. Los mismos son link de navegación que devuelven a la vista principal. También en el header se colocó un ícono de carrito de compras con un contador y botones de navegación que conducen a una nueva vista, dividiendo a los productos por categorías.
+En el body se encuentan todos los productos separados en cards, con su descripción, un contador con botones para agregar o quitarlo al carrito y un botón para individualizar el producto en una nueva vista, la cual muestra una imágen, su nombre, precio, stock y detalle. También tiene su contador con botones para agregar o quitar el producto al carrito de compras.
 
-### `npm run build`
+## `Comenzar`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para comenzar, se necesitará clonar el repositorio, abriendo la consola de git y colocando el comando
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git clone https://github.com/FacuRodriguezR/beerMendoza.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Luego abrir la carpeta descargada en VSC o cualquier otro IDE
 
-### `npm run eject`
+## `Despliegue`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Dentro del editor de codigo, deberan abrir la terminal, preferentemente `bash` y colocar el comando `npm install`
+Luego instalar `React-router-dom` colocando el comando `npm i react-router-dom`
+Y por ultimo ejecutar el comando `npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Construido con 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+* [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+* [React](https://es.reactjs.org/)
