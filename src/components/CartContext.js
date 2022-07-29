@@ -21,14 +21,14 @@ const CartContextProvider = ({ children }) => {
 setCartList(newCart);
 }
 
-const isinCart = (id) => cartList.find(product => product.id === id) ? true : false;
+const isInCart = (id) => cartList.find(product => product.id === id) ? true : false;
 
   const clearItems = () => {
     setCartList([]);
   };
 
   return (
-    <CartContext.Provider value={{ cartList, addToCart, isinCart, clearItems }}>
+    <CartContext.Provider value={{ cartList, addToCart, isInCart, clearItems }}>
       {children}
     </CartContext.Provider>
   );
