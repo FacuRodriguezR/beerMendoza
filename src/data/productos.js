@@ -8,7 +8,8 @@ const productos = [
         "image": "https://cdn.shopify.com/s/files/1/0254/2947/5433/products/cerveza-patagonia-ipa-24-7-410-siempreencasa_1_1000x.png?v=1636633017",
         "description": "Cerveza APA 500CC",
         "descriptionGeneral":"",
-        "stock":19
+        "stock":19,
+        "price":500
 
     },
     {
@@ -18,7 +19,9 @@ const productos = [
         "image": "https://i0.wp.com/cervezaminga.com/wp-content/uploads/2020/04/LATAS-APA.png",
         "description": "Cerveza APA 500CC",
         "descriptionGeneral":"Las American Pale Ale (APA) actuales se parecen poco a sus antecesoras inglesas, con las que comparten el perfil seco y un limpio final amargo. Tienen mayor presencia de maltas, con sabores a caramelo y bizcochos, ésteres frutales de la levadura, y en general usan agua con alto contenido de sulfatos que resaltan el amargor. El lúpulo solo sobresale un poco de los demás ingredientes, brindando suaves aromas florales, terrosos, herbales y ligeramente cítricos.",
-        "stock":5
+        "stock":5,
+        "price":500
+
     },
     {
         "id":2,
@@ -27,7 +30,8 @@ const productos = [
         "name": "STOUT",
         "description": "Cerveza STOUT 500CC",
         "descriptionGeneral":"Stout todavía significaba solo fuerte y podía estar relacionado con cualquier tipo de cerveza, siempre que fuera fuerte: en el Reino Unido era posible encontrar stout pale ale, por ejemplo. Más tarde, la stout finalmente se asociaría solo con la porter, convirtiéndose en sinónimo de cerveza negra.",
-        "stock":9
+        "stock":9,
+        "price":500
     },
     {
         "id":3,
@@ -36,7 +40,8 @@ const productos = [
         "name": "AMBER",
         "description": "Cerveza AMBER 500CC",
         "descriptionGeneral":"",
-        "stock":22
+        "stock":22,
+        "price":500
     },
     {
         "id":4,
@@ -45,7 +50,8 @@ const productos = [
         "name": "Vino Mi Terruño",
         "description": "Cabernet Sauvignon",
         "descriptionGeneral":"",
-        "stock":16
+        "stock":16,
+        "price":500
     },
     {
         "id":5,
@@ -54,7 +60,8 @@ const productos = [
         "name": "Las Perdices",
         "description": "Malbec",
         "descriptionGeneral":"",
-        "stock":99
+        "stock":99,
+        "price":500
     },
     {
         "id":6,
@@ -63,7 +70,8 @@ const productos = [
         "name": "Norton Clasico",
         "description": "Malbec",
         "descriptionGeneral":"",
-        "stock":121
+        "stock":121,
+        "price":500
     },
     {
         "id":7,
@@ -72,7 +80,8 @@ const productos = [
         "name": "Viña Cobos",
         "description": "Felino Malbec",
         "descriptionGeneral":"",
-        "stock":16
+        "stock":16,
+        "price":500
     },
     {
         "id":8,
@@ -81,7 +90,8 @@ const productos = [
         "name": "Gin Tonic",
         "description": "Bombay Sapphire",
         "descriptionGeneral":"",
-        "stock":4
+        "stock":4,
+        "price":500
     },
     {
         "id":9,
@@ -90,7 +100,8 @@ const productos = [
         "name": "Gin Tonic",
         "description": "Bulldog",
         "descriptionGeneral":"",
-        "stock":22
+        "stock":22,
+        "price":500
     }
 
 

@@ -6,7 +6,7 @@ import { Badge } from '@mui/material'
 
 
 
-export const CartWidget = () => {
+ const CartWidget = () => {
   return (
     <div className='navCarrito'>
         <img className='carrito' src={carrito}/>
