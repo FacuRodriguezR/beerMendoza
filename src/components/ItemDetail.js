@@ -16,9 +16,9 @@ const ItemDetail = ( {item}) => {
     const test = useContext(CartContext);
     const {addToCart} = useCartContext();
 
-    const onAdd = (qty) => {
+    const onAdd = (quantity) => {
         setCarritoCompra(true)
-      addToCart(item,qty)
+      addToCart(item,quantity)
     
     }
     return ( <>
@@ -30,7 +30,7 @@ const ItemDetail = ( {item}) => {
          
             {
                 carritoCompra 
-                ? <Link to="/cart">Terminar Compra</Link>
+                ? <Link to="/cart" className='detalle'>Terminar Compra</Link>
                 : <ItemCount initial={1} stock={item.stock} onAdd={onAdd}/>
             }
 

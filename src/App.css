@@ -106,11 +106,14 @@
   text-decoration: none;
   padding: 10px;
   margin: 20px;
+  background-color: #fac400;
+  border-radius: 10px;
 }
 
 .detalle:hover{
-  color:#cc4d3a;
+  color:#fac400;
   transition: .3s;
+  background-color: #000000;
 }
 
 .nav-menu li a.active, .nav-menu li a:hover{
@@ -172,6 +175,7 @@
   padding: 20px;
   border: 2px solid #353535;
   box-shadow: 0 0 5px #353535, 0 0 15px #353535;
+  margin: 10px;
 
   
   border-radius: 16px;
@@ -199,6 +203,44 @@
 .infoBeer{
   font-size: 18px;
   
+}
+
+.containerItems{
+  display: block;
+
+  text-align: center;
+}
+
+.itemCart{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: auto;
+  height: 100px;
+  margin: 20px;
+  align-content: center;
+  align-items: center;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+
+.itemCart button{
+ 
+  height: 50px;
+
+  text-align: center;
+  margin:20px;
+}
+
+.itemCart p {
+  margin: 50px;
+}
+
+.itemCart h2 {
+  margin: 50px;
+}
+.itemCart img {
+  margin:100px;
 }
 
 

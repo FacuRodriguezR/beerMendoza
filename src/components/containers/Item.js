@@ -14,7 +14,7 @@ const Item = (props) => {
             
             <Link className='detalle' to={`/item/${props.item.id}`}>Detalle</Link>
 
-            <ItemCount initial={1} stock={props.item.stock} onAdd={onAdd}/>
+            
 
 
             
