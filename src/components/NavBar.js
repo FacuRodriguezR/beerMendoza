@@ -19,9 +19,9 @@ function Nav() {
         </label>
         <ul class="nav-menu">
           <Link className='linked' to="/">Home</Link>
-          <Link className='linked' to="/category/11">Vinos</Link>
-          <Link className='linked' to="/category/10">Cervezas</Link>
-          <Link className='linked' to="/category/12">Gin Tonic</Link>
+          <Link className='linked' to="/category/vinos">Vinos</Link>
+          <Link className='linked' to="/category/cerveza">Cervezas</Link>
+          <Link className='linked' to="/category/gin">Gin Tonic</Link>
         </ul>
       </nav>
       <Link to="/cart"><CartWidget/></Link>

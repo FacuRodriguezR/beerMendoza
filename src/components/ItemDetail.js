@@ -15,6 +15,7 @@ const ItemDetail = ( {item}) => {
     const [carritoCompra, setCarritoCompra] = useState(false);
     const test = useContext(CartContext);
     const {addToCart} = useCartContext();
+   
 
     const onAdd = (quantity) => {
         setCarritoCompra(true)
@@ -26,7 +27,7 @@ const ItemDetail = ( {item}) => {
             <img src={item.image} alt='hola' width='300px'/>
             <h2>{item.name}</h2>
             <p className='descBeer'>{item.description}</p>
-            <p className='infoBeer'>{item.descriptionGeneral}</p>
+            <p className='infoBeer'>{item.stock} en stock</p>
          
             {
                 carritoCompra 

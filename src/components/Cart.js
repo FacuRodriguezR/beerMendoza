@@ -18,7 +18,7 @@ const Cart = () => {
      { test.cartList.length > 0 && test.cartList.map(item =>(
       <div className="itemCart">
         <h2>{item.name}</h2>
-        <img src={item.image} height="100px"/>
+        <img src={item.image} height="100px" alt="img"/>
         <p>Precio: $ {item.price * item.quantity}</p>
    
         <p>{item.quantity + " Items"}</p>
@@ -26,7 +26,7 @@ const Cart = () => {
       </div>
      ))}
 
-
+      <p>Total: $ {totalPrice()}</p>
     </div>
     <div className="footerCart">
 

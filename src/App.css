@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-link {
@@ -39,14 +40,14 @@
   background-color: #fac400;
   border-radius: 4px;
   box-shadow: 0 0 5px #fac400, 0 0 15px #fac400,
-  0 0 15px #fac400;
+  ;
   color: #353535;
   font-weight: 800;
   font-size: 16px;
 }
 
 .botonAdd p {
-  color: #353535;
+  color: #f6f6f6;
   font-size: 20px;
   font-weight: 800;
 }
@@ -176,9 +177,20 @@
   border: 2px solid #353535;
   box-shadow: 0 0 5px #353535, 0 0 15px #353535;
   margin: 10px;
-
-  
   border-radius: 16px;
+  background: url(https://cdn.create.vista.com/api/media/medium/508124898/stock-photo-old-wood-texture-background-dark?token=);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.descriptionItem{
+  color:#eee7cd;
+}
+
+.cardsBeer h2{
+  font-size: 25px;
+  color: #eee7cd;
 }
 
 .cardsBeer img {
@@ -194,14 +206,16 @@
 }
 
 .descBeer{
-  color: rgb(253, 203, 66);
-  font-size: 20px;
+  color:#fac400;
+  font-size: 30px;
   font-weight: bold;
   text-shadow: 0 0 5px #353535, 0 0 15px #353535 ;
+ 
 }
 
 .infoBeer{
-  font-size: 18px;
+  font-size: 20px;
+  color: #eee7cd;
   
 }
 
@@ -209,6 +223,12 @@
   display: block;
 
   text-align: center;
+}
+
+.containerItems p {
+  color: #cc4d3a;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .itemCart{
@@ -222,6 +242,7 @@
   align-items: center;
   border-top: 2px solid #000000;
   border-bottom: 2px solid #000000;
+  justify-content: space-evenly;
 }
 
 .itemCart button{

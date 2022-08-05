@@ -32,7 +32,7 @@ const removeItem = (id) => setCartList(cartList.filter(producto =>producto.id !=
 
 const totalItems = () => {
   
-  cartList.reduce((acumulador, productoActual) => acumulador + productoActual.quantity, 0)};
+  return cartList.reduce((acumulador, productoActual) => acumulador + productoActual.quantity, 0)};
 
 
   const clearItems = () => {
