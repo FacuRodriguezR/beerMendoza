@@ -18,7 +18,7 @@
 
 
 .header{
-  background-color: #353535;
+  background-color: #000000;
   width: 100%;
   height: 100%;
   display: flex;
@@ -145,12 +145,15 @@
 .cards{
   display: flex;
   text-decoration: none;
-  background-color: #eee7cd;
+  background-color: #434343;
   list-style-type: none;
   padding: 20px;
   justify-content: space-evenly;
   flex-wrap: wrap;
+
 }
+
+
 
 .cards li {
   font-family: poppins;
@@ -169,6 +172,24 @@
   /* padding-right: 20px ; */
 
 }
+.cardsDetail{
+  font-family: poppins;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #353535;
+  box-shadow: 0 0 5px #353535, 0 0 15px #353535;
+  margin: 10px;
+  border-radius: 16px;
+  background: url(https://cdn.create.vista.com/api/media/medium/508124898/stock-photo-old-wood-texture-background-dark?token=);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.cardsDetail  h2{
+  font-size: 25px;
+  color: #eee7cd;
+}
 
 .cardsBeer {
   font-family: poppins;
@@ -181,6 +202,11 @@
   background: url(https://cdn.create.vista.com/api/media/medium/508124898/stock-photo-old-wood-texture-background-dark?token=);
   background-position: center;
   background-size: cover;
+  transition: all .3s ease-in-out;
+}
+
+.cardsBeer:hover{
+  transform: scale(1.1);
 }
 
 
