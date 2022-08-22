@@ -36,8 +36,8 @@ const ItemListContainer = () => {
 
 
                 return (
-                    <>
-                        <div key={index}>
+                    
+                        <div  key={index}>
 
                             <Item
                                 item={item} />
@@ -45,7 +45,7 @@ const ItemListContainer = () => {
                         </div>
 
 
-                    </>
+                  
                 )
             }
             )}

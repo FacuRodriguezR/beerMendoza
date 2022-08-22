@@ -10,14 +10,13 @@ function Nav() {
         <header className="App-header">
         <nav className="header">
         <div className='logo'>
-          <a href="#"
-            >Mendoza Beer</a>
+          <p className='logoBeer'>BeerMendoza</p>
         </div>
         <input type="checkbox" id="check" />
-        <label for="check" className="bar-btn">
+        <label htmlFor="check" className="bar-btn">
           <i className="fas fa-bars"></i>
         </label>
-        <ul class="nav-menu">
+        <ul className="nav-menu">
           <Link className='linked' to="/">Home</Link>
           <Link className='linked' to="/category/vinos">Vinos</Link>
           <Link className='linked' to="/category/cerveza">Cervezas</Link>

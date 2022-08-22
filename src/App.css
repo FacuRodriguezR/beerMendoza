@@ -28,6 +28,8 @@
 
 }
 
+
+
 /* botón contador */
 
 .botonAdd{
@@ -66,6 +68,13 @@
 .logo{
   width: 130px;
   margin-left: 20px;
+}
+
+.logoBeer {
+  color: #eee7cd;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: poppins;
 }
 .bar-btn{
   font-size: 25px;
@@ -254,7 +263,7 @@
 .containerItems p {
   color: #cc4d3a;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .itemCart{
@@ -266,8 +275,8 @@
   margin: 20px;
   align-content: center;
   align-items: center;
-  border-top: 2px solid #000000;
-  border-bottom: 2px solid #000000;
+  border-top: 1px solid #505050;
+  border-bottom: 1px solid #505050;
   justify-content: space-evenly;
 }
 
@@ -288,6 +297,29 @@
 }
 .itemCart img {
   margin:100px;
+}
+
+.footerCart {
+  text-align: center;
+}
+
+.divCompra{
+  display: block;
+  text-align: center;
+}
+
+.formulario label{
+  display: block;
+  text-align: center;
+}
+
+label{
+  padding: 20px;
+  font-family: poppins;
+  font-size: 20px;
+  color: #353535;
+  font-weight: 500;
+
 }
 
 

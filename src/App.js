@@ -8,7 +8,7 @@ import ItemListContainer from './components/ItemListContainer';
 import { BrowserRouter } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import { Route } from 'react-router-dom';
-import { CartContext } from './components/CartContext';
+
 import Cart from './components/Cart';
 import  CartContextProvider from './components/CartContext';
 
