@@ -17,8 +17,9 @@ Está compuesta por una vista principal, compuesta por un header (el cual se enc
 En el body se encuentan todos los productos separados en cards, con su descripción, un contador con botones para agregar o quitarlo al carrito y un botón para individualizar el producto en una nueva vista, la cual muestra una imágen, su nombre, precio, stock y detalle. También tiene su contador con botones para agregar o quitar el producto al carrito de compras.
 
 
-![MendozaBeer - Google Chrome 2022-07-26 00-37-07](https://user-images.githubusercontent.com/90533961/180920027-53fc3ffa-d084-4555-8911-b1f77810c77e.gif)
 
+
+[Untitled.webm](https://user-images.githubusercontent.com/90533961/185834706-49e11c69-bfaf-4fa6-b789-344b4559af11.webm)
 
 ## `Comenzar`
 
